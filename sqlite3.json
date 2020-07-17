@@ -1,0 +1,7 @@
+{
+    "version": "3320200",
+    "url": "https://sqlite.org/2020/sqlite-tools-win32-x86-3320200.zip",
+    "extract_dir": "sqlite-tools-win32-x86-3320200",
+    "bin": "sqlite3.exe",
+    "env_add_path": "."
+}

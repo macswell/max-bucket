@@ -1,0 +1,42 @@
+{
+    "homepage": "https://www.gnu.org/software/emacs/",
+    "license": "GPL-3.0-or-later",
+    "description": "An extensible, customizable, free/libre text editor.",
+    "MajorVersion": "27",
+    "version": "27.0.91",
+    "architecture": {
+        "64bit": {
+            "url": "https://alpha.gnu.org/gnu/emacs/pretest/windows/emacs-27/emacs-27.0.91-x86_64.zip"
+        }
+    },
+    "bin": [
+        "bin\\runemacs.exe",
+        "bin\\emacs.exe",
+        "bin\\emacsclientw.exe",
+        "bin\\etags.exe",
+        "bin\\ctags.exe"
+    ],
+    "checkver": {
+        "url": "https://alpha.gnu.org/gnu/emacs/pretest/windows/emacs-$majorVersion/emacs-$version-x86_64.zip",
+        "re": "Emacs (emacs-([\\d.]+)-x86_64.zip(?!.sig))"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://alpha.gnu.org/gnu/emacs/pretest/windows/emacs-$majorVersion/emacs-$version-x86_64.zip"
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\runemacs.exe",
+            "Emacs"
+        ],
+        [
+            "bin\\emacsclientw.exe",
+            "Emacs Client",
+            "-c -n -a \"\""
+        ]
+    ]
+}
+
