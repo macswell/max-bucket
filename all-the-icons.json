@@ -10,6 +10,14 @@
         "https://raw.githubusercontent.com/domtronn/all-the-icons.el/master/fonts/octicons.ttf",
         "https://raw.githubusercontent.com/domtronn/all-the-icons.el/master/fonts/weathericons.ttf"
     ],
+    "hash": [
+        "F0A1ECF206D49AF401AEC06945F13C81C5591DF5E81D57598BB822C111D0C3E7",
+        "8ED9EE20D8F26ABBD0FBA2765F1E6C8B783E8EE8A8FB02462DFFBBFDDE71C6CC",
+        "AE19E2E4C04F2B04BF030684C4C1DB8FAF5C8FE3EE03D1E0C409046608B38912",
+        "B7F4A3AB562048F28DD1FA691601BC43363A61D0F876D16D8316C52E4F32D696",
+        "027E1B2278BD2EA3C10850724AD85FDAD610DA7F4AA79647C15B96AEB5921EE4",
+        "176BDA6661F213DDE47C2114D76E476EC8CA9AAE07DD54F9550D2D28FE02B4FD"
+    ],
     "checkver": "github",
     "depends": "sudo",
     "autoupdate": {
