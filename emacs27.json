@@ -3,10 +3,10 @@
     "license": "GPL-3.0-or-later",
     "description": "An extensible, customizable, free/libre text editor.",
     "MajorVersion": "27",
-    "version": "27.0.91",
+    "version": "27.1",
     "architecture": {
         "64bit": {
-            "url": "https://alpha.gnu.org/gnu/emacs/pretest/windows/emacs-27/emacs-27.0.91-x86_64.zip"
+            "url": "https://alpha.gnu.org/gnu/emacs/pretest/windows/emacs-27/emacs-27.1-x86_64.zip"
         }
     },
     "bin": [
